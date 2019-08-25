@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:schema xmlns:x="http://www.w3.org/2001/XMLSchema"
+          xmlns:d="http://manzj.net/metadata"
+          xmlns:s="http://manzj.net/services/test"
+          targetNamespace="http://manzj.net/services/test" elementFormDefault="qualified"
+          attributeFormDefault="qualified">
+    <x:import namespace="http://manzj.net/metadata" schemaLocation="head.xsd"/>
+    <x:element name="ReqHeader" type="d:ReqHeaderType"/>
+    <x:element name="RspHeader" type="d:RspHeaderType"/>
+    <x:element name="User" type="s:UserType" />
+    <x:complexType name="UserType">
+        <x:sequence>
+            <x:element name="header" type="s:userHeaderType"/>
+            <x:element name="body" type="s:userBodyType"/>
+        </x:sequence>
+    </x:complexType>
+    <x:complexType name="userHeaderType">
+        <x:sequence>
+            <x:element name="from" type="x:string" />
+            <x:element name="to" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+    <x:complexType name="userBodyType">
+        <x:sequence>
+            <x:element name="username" type="x:string" />
+            <x:element name="age" type="x:int" />
+            <x:element name="sex" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+    <x:element name="resUser" type="s:resUserType" />
+    <x:complexType name="resUserType">
+        <x:sequence>
+            <x:element name="header" type="s:resUserHeaderType">
+            </x:element>
+            <x:element name="body" type="s:resUserBodyType">
+            </x:element>
+        </x:sequence>
+    </x:complexType>
+    <x:complexType name="resUserHeaderType">
+        <x:sequence>
+            <x:element name="from" type="x:string" />
+            <x:element name="to" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+    <x:complexType name="resUserBodyType">
+        <x:sequence>
+            <x:element name="username" type="x:string" />
+            <x:element name="age" type="x:int" />
+            <x:element name="sex" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+</x:schema>

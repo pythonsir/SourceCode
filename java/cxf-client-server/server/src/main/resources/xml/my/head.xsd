@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<x:schema xmlns:x="http://www.w3.org/2001/XMLSchema"
+          xmlns:d="http://manzj.net/metadata" targetNamespace="http://manzj.net/metadata"
+          elementFormDefault="qualified" attributeFormDefault="qualified">
+    <x:complexType name="ReqHeaderType">
+        <x:sequence>
+            <x:element name="mac" type="x:string"/>
+            <x:element name="ip" type="x:string"/>
+            <x:element name="address" type="x:string" />
+            <x:element name="from" type="x:string" />
+            <x:element name="to" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+    <x:complexType name="RspHeaderType">
+        <x:sequence>
+            <x:element name="mac" type="x:string"/>
+            <x:element name="ip" type="x:string"/>
+            <x:element name="address" type="x:string" />
+            <x:element name="from" type="x:string" />
+            <x:element name="to" type="x:string" />
+        </x:sequence>
+    </x:complexType>
+</x:schema>

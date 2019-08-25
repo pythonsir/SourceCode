@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://manzj.net/services/test/wsdl"
+                  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+                  xmlns:s="http://manzj.net/services/test"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
+                  xmlns:tns="http://manzj.net/services/test/wsdl"
+                  xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/">
+    <wsdl:types>
+        <xsd:schema targetNamespace="http://manzj.net/services/test/wsdl">
+            <xsd:import namespace="http://manzj.net/services/test" schemaLocation="test.xsd"></xsd:import>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="ReqHeader">
+        <wsdl:part name="ReqHeader" element="s:ReqHeader">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="RspHeader">
+        <wsdl:part name="RspHeader" element="s:RspHeader">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="User">
+        <wsdl:part name="User" element="s:User"/>
+    </wsdl:message>
+    <wsdl:message name="resUser">
+        <wsdl:part name="resUser" element="s:resUser"/>
+    </wsdl:message>
+    <wsdl:portType name="UserPortType">
+        <wsdl:operation name="getName">
+            <wsdl:input message="tns:User"></wsdl:input>
+            <wsdl:output message="tns:resUser"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="UserSoapBind" type="tns:UserPortType">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="getName">
+            <soap:operation soapAction="urn://getName"></soap:operation>
+            <wsdl:input>
+                <soap:header message="tns:ReqHeader" part="ReqHeader" use="literal"></soap:header>
+                <soap:body use="literal" />
+            </wsdl:input>
+            <wsdl:output>
+                <soap:header message="tns:RspHeader" part="RspHeader" use="literal"></soap:header>
+                <soap:body use="literal" />
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="myService">
+        <wsdl:port name="MyServerSoapEndpoint" binding="tns:UserSoapBind">
+            <soap:address location="http://localhost:8081/service/my"></soap:address>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
