@@ -1,10 +1,7 @@
 package com.example.demo.config;
 
-import com.example.demo.cn.ESBServerPortType;
-import com.example.demo.cn.ESBServerSoapEndpointImpl;
+
 import com.example.demo.interceptors.CxfInterceptorsForOut;
-import com.example.demo.service.UserService;
-import com.example.demo.service.imp.UserServiceImp;
 import com.example.demo.test.MyServerSoapEndpointImpl;
 import com.example.demo.test.MyService;
 import com.example.demo.test.UserPortType;
