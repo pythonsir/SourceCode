@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title}}</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+</head>
+<body>
+<div class="main_body">
+    <div class="main_content" style="min-height: 317px;">
+        <div class="fixed_width">
+            <div class="fine_title">
+                <h1>{{ title}}</h1>
+            </div>
+            <div class="fine_view_con">
+                <div class="table_center">
+                    <div class="table_line01 table_line02">
+                      {% block content %}{% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

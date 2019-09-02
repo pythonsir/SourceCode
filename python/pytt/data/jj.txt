@@ -1,0 +1,520 @@
+<table class="ui-table ui-table-bordered-th-blank ui-table-hover ui-table-bordered-dashed" id="tb_jjcs">
+ <thead>
+  <tr>
+   <th>
+    <a>
+     基金代码
+    </a>
+   </th>
+   <th>
+    基金名称
+   </th>
+   <th>
+    单位净值
+    <span class="ui-table-gray">
+     日期
+    </span>
+   </th>
+   <th>
+    <a>
+     近1月
+    </a>
+   </th>
+   <th>
+    <a>
+     近3月
+    </a>
+   </th>
+   <th>
+    <a>
+     近6月
+    </a>
+   </th>
+   <th>
+    <a class="desc">
+     近1年
+    </a>
+   </th>
+   <th>
+    <a>
+     近3年
+    </a>
+   </th>
+   <th>
+    <a>
+     今年来
+    </a>
+   </th>
+   <th>
+    <a>
+     成立来
+    </a>
+   </th>
+   <th>
+    手续费
+   </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="">
+   <td>
+    <a>
+     006109
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="富荣价值精选混合A">
+     富荣价值精选混合A
+    </a>
+   </td>
+   <td>
+    <b>
+     1.8010
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    4.30%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    6.28%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    1.03%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    81.72%
+   </td>
+   <td class="ui-table-digit">
+    --
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    129.16%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    80.10%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.10%
+    </a>
+   </td>
+  </tr>
+  <tr class="even">
+   <td>
+    <a>
+     519727
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="交银成长30混合">
+     交银成长30混合
+    </a>
+   </td>
+   <td>
+    <b>
+     1.4250
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    18.45%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    36.10%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    38.48%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    69.44%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    44.51%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    77.02%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    104.34%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="">
+   <td>
+    <a>
+     519778
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="交银经济新动力混合">
+     交银经济新动力混合
+    </a>
+   </td>
+   <td>
+    <b>
+     1.6836
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    17.37%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    33.13%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    33.75%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    65.89%
+   </td>
+   <td class="ui-table-digit">
+    --
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    70.40%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    68.36%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="even">
+   <td>
+    <a>
+     673060
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="西部利得景瑞灵活配置混合">
+     西部利得景瑞灵活配置混合
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3200
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    6.88%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    17.75%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    41.78%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    62.36%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    32.00%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    67.94%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    32.00%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.06%
+    </a>
+   </td>
+  </tr>
+  <tr class="">
+   <td>
+    <a>
+     005106
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="银华农业产业股票发起式">
+     银华农业产业股票发起式
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3737
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    5.51%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    10.21%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    30.22%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    62.09%
+   </td>
+   <td class="ui-table-digit">
+    --
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    72.68%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    37.37%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="even">
+   <td>
+    <a>
+     260104
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="景顺长城内需增长混合">
+     景顺长城内需增长混合
+    </a>
+   </td>
+   <td>
+    <b>
+     7.1530
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    7.52%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    15.22%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    37.80%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    60.81%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    51.16%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    70.47%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    1278.33%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="">
+   <td>
+    <a>
+     161818
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="银华消费分级混合">
+     银华消费分级混合
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3270
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    9.13%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    13.03%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    34.31%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    60.00%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    21.96%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    67.37%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    44.61%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="even">
+   <td>
+    <a>
+     260109
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="景顺长城内需贰号混合">
+     景顺长城内需贰号混合
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3400
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    7.11%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    15.12%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    36.04%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    59.90%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    46.82%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    72.24%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    538.51%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="">
+   <td>
+    <a>
+     001679
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="前海开源中国稀缺资产混合A">
+     前海开源中国稀缺资产混合A
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3070
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    9.92%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    9.28%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    21.13%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    59.58%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    28.52%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    66.71%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    30.70%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+  <tr class="even">
+   <td>
+    <a>
+     002079
+    </a>
+   </td>
+   <td class="ui-table-left">
+    <a title="前海开源中国稀缺资产混合C">
+     前海开源中国稀缺资产混合C
+    </a>
+   </td>
+   <td>
+    <b>
+     1.3700
+    </b>
+    <span class="ui-table-gray">
+     09-02
+    </span>
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    9.86%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    9.25%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    21.02%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    59.49%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    38.95%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    66.67%
+   </td>
+   <td class="ui-table-up ui-table-digit">
+    37.00%
+   </td>
+   <td>
+    <a class="a_fl">
+     0.15%
+    </a>
+   </td>
+  </tr>
+ </tbody>
+</table>
